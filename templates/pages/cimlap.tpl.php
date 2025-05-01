@@ -1,11 +1,19 @@
-<h2>Köszöntés</h2>
-<img src="./images/arc.jpg">
-<h3>Mi a Lorem Ipsum?</h3>
-<p>A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállította a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta. Nem csak 5 évszázadot élt túl, de az elektronikus betûkészleteknél is változatlanul megmaradt. Az 1960-as években népszerûsítették a Lorem Ipsum részleteket magukbafoglaló Letraset lapokkal, és legutóbb softwarekkel mint például az Aldus Pagemaker.</p>
-<h3>Honnan származik?</h3>
-<p>A hiedelemmel ellentétben a Lorem Ipsum nem véletlenszerû szöveg. Gyökerei egy Kr. E. 45-ös latin irodalmi klasszikushoz nyúlnak. Richarrd McClintock a virginiai Hampden-Sydney egyetem professzora kikereste az ismeretlenebb latin szavak közül az egyiket (consectetur) egy Lorem Ipsum részletbõl, és a klasszikus irodalmat átkutatva vitathatatlan forrást talált. A Lorem Ipsum az 1.10.32 és 1.10.33-as de Finibus Bonoruem et Malorum részleteibõl származik (A Jó és Rossz határai - Cicero), Kr. E. 45-bõl. A könyv az etika elméletét tanulmányozza, ami nagyon népszerû volt a reneszánsz korban. A Lorem Ipsum elsõ sora, Lorem ipsum dolor sit amet.. a 1.10.32-es bekezdésbõl származik.</p>
-<p>A Lorem Ipsum alaprészlete, amit az 1500-as évek óta használtak, az érdeklõdõk kedvéért lent újra megtekinthetõ. Az 1.10.32 és 1.10.33-as bekezdéseket szintén eredeti formájukban reprodukálták a hozzá tartozó angol változattal az 1914-es fordításból H. Rackhamtól.</p>
-<h3>Miért használjuk?</h3>
-<p>Ez egy régóta elfogadott tény, miszerint egy olvasót zavarja az olvasható szöveg miközben a szöveg elrendezését nézi. A Lorem Ipsum használatának lényege, hogy többé-kevésbé rendezettebb betûket tartalmaz, ellentétben a Tartalom helye, Tartalom helye-féle megoldással. Sok desktop szerkesztõ és weboldal szerkesztõ használja a Lorem Ipsum-ot mint alapbeállítású szövegmodellt, és egy keresés a lorem ipsum-ra sok félkész weboldalt fog eredményezni.</p>
-<h3>Honnan szerezhető be?</h3>
-<p>A Lorem Ipsum részleteinek sok változata elérhetõ, de a legtöbbet megváltoztatták egy kis humorral és véletlenszerûen kiválasztott szavakkal, amik kicsit sem teszik értelmessé. Ha használni készülsz a Lorem Ipsumot, biztosnak kell lenned abban, hogy semmi kínos sincs elrejtve a szöveg közepén. Az összes internetes Lorem Ipsum készítõ igyekszik elõre beállított részleteket ismételni a szükséges mennyiségben, ezzel téve az internet egyetlen igazi Lorem Ipsum generátorává ezt az oldalt. Az oldal körülbelül 200 latin szót használ, egy maroknyi modell-mondatszerkezettel így téve a Lorem Ipsumot elfogadhatóvá. Továbbá az elkészült Lorem Ipsum humortól, ismétlõdéstõl vagy értelmetlen szavaktól mentes.</p>
+<h2>Kezdolap</h2>
+
+<div class="col-md-6">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mhDJNfV7hjk?si=qayT1-SDC5NXndEB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div class="col-md-6">
+
+</div>
+<h3>A Tűz felfedezése és a főzés kezdetei</h3>
+    <p>A főzés története szorosan összefonódik a tűz felfedezésével és megszelídítésével. Bár a pontos időpont nem ismert, a régészeti bizonyítékok arra utalnak, hogy az emberelődök már több százezer évvel ezelőtt használták a tüzet. Kezdetben valószínűleg a véletlen keletkezésű tüzek adtak lehetőséget az ételek megváltoztatására. A tűz megszelídítése forradalmi lépés volt, amely lehetővé tette az emberek számára, hogy irányítsák a hőt és tudatosan elkezdjék feldolgozni a táplálékot.</p>
+
+    <img class="float-end ms-3" src="./images/fozes.jpg"><h3>A főzés korai előnyei</h3>
+    <p>A főzés számos előnnyel járt a korai emberek számára. A hő hatására az ételek könnyebben emészthetővé váltak, ami több energiát biztosított a szervezetnek. Emellett a főzés elpusztította a káros baktériumokat és parazitákat, jelentősen csökkentve a megbetegedések kockázatát. Bizonyos növényi táplálékok, amelyek nyersen mérgezőek vagy nehezen fogyaszthatóak voltak, a főzés hatására biztonságossá és ízletesebbé váltak. Ezáltal a táplálkozási lehetőségek jelentősen bővültek.</p>
+
+    <h3>A főzési technikák fejlődése</h3>
+    <p>Az idők során a főzési technikák folyamatosan fejlődtek. A kezdeti tűz fölötti sütés és hamuban való parázslás után megjelentek az egyszerűbb főzőedények, valószínűleg állati bőrből vagy növényi rostokból készítve. A kerámia megjelenése új távlatokat nyitott a főzés terén, lehetővé téve a vízben való főzést és a hosszabb ideig tartó hőkezelést. A különböző kultúrákban eltérő főzési módszerek alakultak ki, alkalmazkodva a helyi alapanyagokhoz és a rendelkezésre álló eszközökhöz.</p>
+
+    <h3>A főzés hatása az emberi evolúcióra</h3>
+    <p>Sok tudós úgy véli, hogy a főzés jelentős szerepet játszott az emberi evolúcióban. A könnyebben emészthető és táplálóbb ételek lehetővé tették az agy méretének növekedését és a komplexebb társadalmi struktúrák kialakulását. A főzés egyben társadalmi eseménnyé is vált, a közös ételkészítés és fogyasztás erősítette a közösségi kötelékeket és a kulturális identitást. A főzés tehát nem csupán egy kulináris tevékenység, hanem az emberi civilizáció egyik alapköve.</p>
