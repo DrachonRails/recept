@@ -1,3 +1,25 @@
+<h1>Kapcsolat</h1>
+// Ha a Küld gomb már aktív és rákattintunk, akkor először lefut az ellenőriz() Javascrit metódus.
+// Ha az true értékkel tér vissza, akkor elküldi a kapcsolat.php fájlnak az adatokat POST módszerrel.
+ <form name="kapcsolat" action="logicals/kapcsolat.php" method="post">
+ <div>
+ <label><input type="text" id="nev" name="nev" size="20" maxlength="40">Név (minimum 5
+karakter): </label>
+ <br/>
+ <label><input type="text" id="email" name="email" size="30" maxlength="40">E-mail
+(kötelező): </label>
+ <br/>
+ <label> <textarea id="szoveg" name="szoveg" cols="40" rows="10"></textarea> Üzenet
+(kötelező): </label>
+ <br/>
+// A következő két elem mindegyike egy-egy gombot jelenít meg.
+// Az <INPUT…> gomb a FORM-hoz kapcsolódik: beviteli mezőinek adatait továbbítja.
+// A <BUTTON…> gomb a FORM-tól független, bárhova elhelyezhető az oldalon.
+// Valemilyen esemény-kezelést rendelhetünk hozzá.
+ <input id="kuld" type="submit" value="Küld">
+ <button onclick="ellenoriz();" type="button">Ellenőriz</button>
+ </div>
+ </form>
 <h2>Adatok:</h2>
 <p>Ügyvezető: <strong>Valaki Az</strong></p>
 <p>E-mail: <strong>valaki.az@minihonlap.hu</strong></p>
