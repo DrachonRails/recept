@@ -1,5 +1,4 @@
 <h1>Kapcsolat</h1>
-
  <form name="kapcsolat" action="logicals/kapcsolat.php" method="post">
  <div>
  <label>Név (minimum 5
@@ -20,3 +19,4 @@
     width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 <br>
 <a target="_blank" href="https://www.google.hu/maps/place/Pallasz+Ath%C3%A9n%C3%A9+Egyetem+GAMF+Kar/@46.8960799,19.6669509,17z/data=!3m1!4b1!4m5!3m4!1s0x4743da7a6c479e1d:0xc8292b3f6dc69e7f!8m2!3d46.8960763!4d19.6691396?hl=hu">Nagyobb térkép</a>
+<script> src = /logicals/kapcsolat.js </script>
