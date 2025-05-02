@@ -1,0 +1,30 @@
+.activity {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.activity-done {
+    font-weight: bold;
+}
+.icons i {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.list-inline li {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.checkicon {
+    color: green;
+    margin-right: 10px;
+}
+.date-time i {
+    margin-right: 5px;
+}
+.profile-image img {
+    margin-left: -5px;
+    border: 1px solid #fff;
+}
