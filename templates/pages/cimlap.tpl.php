@@ -1,11 +1,15 @@
 <h2>Kezdolap</h2>
 
-<div class="col-md-6">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mhDJNfV7hjk?si=qayT1-SDC5NXndEB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-<div class="col-md-6">
+    <div class="col-6">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mhDJNfV7hjk?si=qayT1-SDC5NXndEB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="col-6">
+    <video  width="100%" controls>
+    <source src="video.mp4" type="video/mp4">
 
-</div>
+    </video>
+    </div>
+
 <h3>A Tűz felfedezése és a főzés kezdetei</h3>
     <p>A főzés története szorosan összefonódik a tűz felfedezésével és megszelídítésével. Bár a pontos időpont nem ismert, a régészeti bizonyítékok arra utalnak, hogy az emberelődök már több százezer évvel ezelőtt használták a tüzet. Kezdetben valószínűleg a véletlen keletkezésű tüzek adtak lehetőséget az ételek megváltoztatására. A tűz megszelídítése forradalmi lépés volt, amely lehetővé tette az emberek számára, hogy irányítsák a hőt és tudatosan elkezdjék feldolgozni a táplálékot.</p>
 
