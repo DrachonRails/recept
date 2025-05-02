@@ -17,3 +17,4 @@
 
     <h3>A főzés hatása az emberi evolúcióra</h3>
     <p>Sok tudós úgy véli, hogy a főzés jelentős szerepet játszott az emberi evolúcióban. A könnyebben emészthető és táplálóbb ételek lehetővé tették az agy méretének növekedését és a komplexebb társadalmi struktúrák kialakulását. A főzés egyben társadalmi eseménnyé is vált, a közös ételkészítés és fogyasztás erősítette a közösségi kötelékeket és a kulturális identitást. A főzés tehát nem csupán egy kulináris tevékenység, hanem az emberi civilizáció egyik alapköve.</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1389118.7522175827!2d18.18624959974645!3d47.15545394768055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741ddb9d9d52c6b%3A0x3f76962ecb256a75!2sNethely%20Kft.!5e0!3m2!1shu!2shu!4v1746212945268!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
