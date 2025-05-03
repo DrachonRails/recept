@@ -10,12 +10,12 @@
     $password = '';
 
                     try {
-                        $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
-                        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                        $stmt = $pdo->query("SELECT COUNT(*) FROM kapcsolat");
+                        $dbh = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
+                        $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                        $stmt = $dbh->query("SELECT COUNT(*) FROM kapcsolat");
                         $messageCount = $stmt->fetchColumn();
                         echo $messageCount;
-                        $pdo = null;
+                        $dbh = null;
                     } catch (PDOException $e) {
                         echo "Hiba";
                     }
@@ -27,11 +27,11 @@
                     <?php
 
                     try {
-                        $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
-                        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                        $dbh = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
+                        $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
                         $sql = "SELECT nev, email, szoveg FROM kapcsolat ORDER BY nev ASC";
-                        $stmt = $pdo->prepare($sql);
+                        $stmt = $dbh->prepare($sql);
                         $stmt->execute();
                         $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
@@ -41,19 +41,19 @@
                                 echo '<div class="d-flex flex-row align-items-center"><i class="fa fa-user checkicon"></i>';
                                 echo '<div class="ml-2">';
                                 echo '<h6 class="mb-0">' . htmlspecialchars($row['nev']) . '</h6>';
-                                echo '<div class="d-flex flex-row mt-1 text-black-50 date-time">';
+                                echo '<div class="d-flex flex-row mt-1 date-time">';
                                 echo '<div><i class="fa fa-envelope-o"></i><span class="ml-2">' . htmlspecialchars($row['email']) . '</span></div>';
                                 echo '</div>';
                                 echo '</div>';
                                 echo '</div>';
-                                echo '<div><span class="text-black-50">' . htmlspecialchars($row['szoveg']) . '</span></div>';
+                                echo '<div><span class="text-black-50" class="ml-2">' . htmlspecialchars($row['szoveg']) . '</span></div>';
                                 echo '</li>';
                             }
                         } else {
                             echo '<li class="text-center">Nincsenek beérkezett üzenetek.</li>';
                         }
 
-                        $pdo = null;
+                        $dbh = null;
 
                     } catch (PDOException $e) {
                         echo '<li class="text-center text-danger">Database error: ' . htmlspecialchars($e->getMessage()) . '</li>';
