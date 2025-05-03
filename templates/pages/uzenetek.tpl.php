@@ -4,14 +4,10 @@
             <div class="d-flex justify-content-between align-items-center activity">
                 <div><i class="fa fa-envelope-o"></i><span class="ml-2">Beérkezett Üzenetek</span></div>
                 <div><span class="activity-done"> (<?php
-    $host = 'localhost';
-    $dbname = 'receptek'; 
-    $username = 'root';     
-    $password = '';
-
+   
                     try {
-                        $dbh = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
-                        $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                        $dbh = new PDO('mysql:host=localhost;dbname=recept', 'recept', 'WEB-AD0L3N-EAPH4P',
+                        array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION));
                         $stmt = $dbh->query("SELECT COUNT(*) FROM kapcsolat");
                         $messageCount = $stmt->fetchColumn();
                         echo $messageCount;
@@ -27,8 +23,8 @@
                     <?php
 
                     try {
-                        $dbh = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
-                        $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                        $dbh = new PDO('mysql:host=localhost;dbname=recept', 'recept', 'WEB-AD0L3N-EAPH4P',
+                        array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION));
 
                         $sql = "SELECT nev, email, szoveg FROM kapcsolat ORDER BY nev ASC";
                         $stmt = $dbh->prepare($sql);
